@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [audreyr/rotatingnav](http://github.com/audreyr/rotatingnav). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/audreyr-rotatingnav`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # rotatingnav [![Build Status](https://secure.travis-ci.org/audreyr/rotatingnav.png?branch=master)](https://travis-ci.org/audreyr/rotatingnav) [![Dependency Status](https://david-dm.org/audreyr/rotatingnav.png)](https://david-dm.org/audreyr/rotatingnav) [![devDependency Status](https://david-dm.org/audreyr/rotatingnav/dev-status.png)](https://david-dm.org/audreyr/rotatingnav#info=devDependencies)
 
 A nav menu that rotates through infinite links, allowing for more nav menu links than can normally fit.

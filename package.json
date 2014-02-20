@@ -1,25 +1,22 @@
 {
-  "name": "rotatingnav",
-  "title": "jQuery RotatingNav",
+  "name": "audreyr-rotatingnav",
   "description": "A nav menu that rotates through infinite links, allowing for more nav menu links than can normally fit.",
-  "author": "Audrey Roy",
-  "homepage": "https://github.com/audreyr/rotatingnav/",
   "version": "0.2.1",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-cli": "~0.1.7",
-    "grunt-contrib-jshint": "~0.4.3",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-cssmin": "~0.6.1",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-release": "~0.5.1"
+  "keywords": [
+    "rotatingnav",
+    "navigation",
+    "carousel",
+    "menu",
+    "links",
+    "dynamicmenu",
+    "jquery"
+  ],
+  "main": "dist/jquery.rotatingnav.min.js",
+  "styles": [
+    "dist/jquery.rotatingnav.min.css"
+  ],
+  "dependencies": {
+    "component-jQuery": "git://github.com/npmcomponent/component-jQuery.git"
   },
-  "repository": {
-    "type" : "git",
-    "url" : "http://github.com/audreyr/rotatingnav.git"
-  },
-  "scripts": {
-    "test": "grunt travis --verbose"
-  }
+  "license": "MIT"
 }
